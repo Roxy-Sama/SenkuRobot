@@ -58,8 +58,8 @@ I hope I'm happy after using me! Type /help for feature of krusty Krab!
 
 HELP_STRINGS = """
 Hello friend! Introducing, my name is SpongeBob! I'm a chef at the Krusty Krab. And below are the features added from the KrustyKrab.
-[🍔](https://telegra.ph/file/cf8f63d3a400a10c71a36.jpg)
-*Main* commands available: [🍔](https://telegra.ph/file/cf8f63d3a400a10c71a36.jpg)
+
+*Main* commands available: [🍔](https://telegra.ph/file/3d10ec6548d494889f393.mp4)
  🍔 /help: PM's you this message.
  🍔 /help <module name>: PM's you info about that module.
  🍔 /donate: information on how to donate!
