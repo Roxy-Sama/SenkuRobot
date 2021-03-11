@@ -51,24 +51,21 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of available commands with /help.
+Hello Krabby Lovers! {} You want krabby?
+I'm a chef at the Krusty Krab! You want to order something? Message @krustykrabroobot!
+I hope I'm happy after using me! Type /help for feature of krusty Krab!
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm Dr Stone & I help admins to manage their groups! Have a look at the following for an idea of some of \
-the things I can help you with.
-
-*Main* commands available:
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
- • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
+Hello friend! Introducing, my name is SpongeBob! I'm a chef at the Krusty Krab. And below are the features added from the KrustyKrab.
+[🍔](https://telegra.ph/file/cf8f63d3a400a10c71a36.jpg)
+*Main* commands available: [🍔](https://telegra.ph/file/cf8f63d3a400a10c71a36.jpg)
+ 🍔 /help: PM's you this message.
+ 🍔 /help <module name>: PM's you info about that module.
+ 🍔 /donate: information on how to donate!
+ 🍔 /settings:
+   🍟 in PM: will send you your settings for all supported modules.
+   🍟 in a group: will redirect you to pm, with all that chat's settings.
 
 
 {}
@@ -77,10 +74,10 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://images6.alphacoders.com/112/thumb-1920-1126615.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/f3194413d1014e459a27b.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
+DONATE_STRING = """Hello Krabby!, glad to hear you want to donate!
+Spongebob is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
@@ -200,31 +197,31 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Summon Me ",
+                            text="➕ Add Spongebob To Your Group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text=" 🔔 Updates ",
-                             url="https://t.me/SenkuUpdates")
+                             url="https://t.me/VohaUpdates")
                      ],
                      [
                         InlineKeyboardButton(
-                            text=" ✨ Help ",
-                            url="https://t.me/SenkuRobot?start=help"),
+                            text=" ❓ Help ❓ ",
+                            url="https://t.me/SpongebobSquarepantsrobot?start=help"),
                          InlineKeyboardButton(
-                            text=" ⚡️ Get Started ",
-                             url="https://t.me/SenkuUpdates/4")        
+                            text=" 📑 Get Started ",
+                             url="https://t.me/VohaUpdate/51")        
                        
                      ],
                      [
                         InlineKeyboardButton(
-                             text=" ❤️ Source Code ",
-                             url="https://github.com/FtSasaki/SenkuRobot")
+                             text="🎗️ Support Group 🎗️",
+                             url="https://t.me/VohaUnion")
                     
                     ]]))
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
+            "Heyya! You want a Krabby?"
             .format(uptime),
             parse_mode=ParseMode.HTML)
 
