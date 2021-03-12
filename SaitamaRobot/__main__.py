@@ -76,7 +76,7 @@ And the following:
 
 SAITAMA_IMG = "https://telegra.ph/file/f3194413d1014e459a27b.jpg"
 
-DONATE_STRING = """Hello Krabby!, glad to hear you want to donate!
+DONATE_STRING = """Hello Krabby Lovers!, glad to hear you want to donate!
 Spongebob is hosted on one of Heroku's Servers. if you want to donate to me you can use this link.
 https://saweria.co/Xlaaf
 I'm just an ordinary human who goes to school. If anyone wants to donate, thank you for donating to me
