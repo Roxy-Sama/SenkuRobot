@@ -77,9 +77,10 @@ And the following:
 SAITAMA_IMG = "https://telegra.ph/file/f3194413d1014e459a27b.jpg"
 
 DONATE_STRING = """Hello Krabby!, glad to hear you want to donate!
-Spongebob is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+Spongebob is hosted on one of Heroku's Servers. if you want to donate to me you can use this link.
+https://saweria.co/Xlaaf
+I'm just an ordinary human who goes to school. If anyone wants to donate, thank you for donating to me
+"""
 
 IMPORTED = {}
 MIGRATEABLE = []
